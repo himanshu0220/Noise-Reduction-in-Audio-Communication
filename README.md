@@ -1,30 +1,31 @@
-# Noise-Reduction-in-Audio-Communication
-This repository presents a real-time audio denoising system developed in MATLAB, aimed at enhancing the intelligibility of speech signals degraded by Additive White Gaussian Noise (AWGN). The project simulates a digital communication environment using BPSK modulation and demodulation, followed by a multi-stage noise reduction pipeline. The system integrates adaptive noise suppression through the Normalized Least Mean Squares (NLMS) algorithm, spectral enhancement using Wiener filtering, and further refinement via spectral subtraction techniques. A custom-built GUI enables real-time visualization of waveforms, frequency spectra, and quantitative performance metrics such as Signal-to-Noise Ratio (SNR) and Mean Squared Error (MSE). Designed with modularity and extensibility in mind, the system supports both offline and live audio processing, making it applicable for research in speech enhancement, telecommunication systems, and assistive hearing technologies
+# Real-Time Audio Noise Reduction System (MATLAB)
 
-Features:
+This project implements a real-time adaptive noise reduction system using MATLAB. It uses techniques like BPSK modulation, NLMS filtering, Wiener filtering, and wavelet denoising.
 
-1. Real-time audio input and processing
+## Features
+- Real-time audio input and processing
+- NLMS and Wiener filtering
+- Spectral subtraction and wavelet denoising
+- GUI controls for live playback and SNR display
 
-2. NLMS and Wiener filtering
-
-3. Spectral subtraction and wavelet denoising
-
-4. GUI controls for live playback and SNR display
-
-How to Run:
-
-1. Open realTimeProcessing.m in MATLAB
-
+## How to Run
+1. Open `realTimeProcessing.m` in MATLAB
 2. Ensure required toolboxes are installed
-
 3. Run the script and allow microphone access
 
-Toolboxes Required
+## Toolboxes Required
+- Signal Processing Toolbox
+- DSP System Toolbox
+- Communications Toolbox
 
-1. Signal Processing Toolbox
+## Comparison with Existing Methods
 
-2. DSP System Toolbox
+| Criteria               | Our Work | LMS-Based | NLMS Only | Wavelet-Wiener |
+|------------------------|----------|-----------|-----------|----------------|
+| Real-time Processing   | ✅ Yes   | ❌ No     | ❌ No     | ❌ No          |
+| SNR Improvement        | ✅ High  | Medium    | Medium    | High           |
+| GUI Visuals            | ✅ Full  | Basic     | ❌        | ❌             |
+| Modular Design         | ✅ Yes   | ❌        | ❌        | ❌             |
 
-3. Communications Toolbox
 
-The source code is not publicly available in this repository. If you're interested in collaboration or academic reference, please contact me via email or GitHub Discussions.
+## ⚠️ The source code is not publicly available in this repository. If you're interested in collaboration or academic reference, please contact me via email or GitHub Discussions.
