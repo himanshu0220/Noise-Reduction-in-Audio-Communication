@@ -3,21 +3,28 @@ This repository presents a real-time audio denoising system developed in MATLAB,
 
 Features:
 
-1.Real-time audio input and processing
-2.NLMS and Wiener filtering
-3.Spectral subtraction and wavelet denoising
-4.GUI controls for live playback and SNR display
+1. Real-time audio input and processing
+
+2. NLMS and Wiener filtering
+
+3. Spectral subtraction and wavelet denoising
+
+4. GUI controls for live playback and SNR display
 
 How to Run:
 
-1.Open realTimeProcessing.m in MATLAB
-2.Ensure required toolboxes are installed
-3.Run the script and allow microphone access
+1. Open realTimeProcessing.m in MATLAB
+
+2. Ensure required toolboxes are installed
+
+3. Run the script and allow microphone access
 
 Toolboxes Required
 
-1.Signal Processing Toolbox
-2.DSP System Toolbox
-3.Communications Toolbox
+1. Signal Processing Toolbox
+
+2. DSP System Toolbox
+
+3. Communications Toolbox
 
 The source code is not publicly available in this repository. If you're interested in collaboration or academic reference, please contact me via email or GitHub Discussions.
